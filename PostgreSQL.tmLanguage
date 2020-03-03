@@ -620,12 +620,6 @@
 					<key>name</key>
 					<string>variable.parameter.pgsql</string>
 				</dict>
-				<dict>
-					<key>match</key>
-					<string>(?i)\b([pv](i|t|b|n|c|d|r|ia|iv(?:al)?)_[-\w_]+\.?[-\w_]*)\b</string>
-					<key>name</key>
-					<string>variable.parameter.pgsql</string>
-				</dict>
 			</array>
 		</dict>
 	</dict>
