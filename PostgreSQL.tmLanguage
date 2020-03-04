@@ -65,6 +65,14 @@
 					<key>name</key>
 					<string>constant.other.pgsql</string>
 				</dict>
+				<dict>
+					<key>comment</key>
+					<string>schema.table.field calls</string>
+					<key>match</key>
+					<string>(?i)\b([-\w_]*\.?[-\w_]+\.[-\w_]+\b)</string>
+					<key>name</key>
+					<string>constant.other.pgsql</string>
+				</dict>
 			</array>
 		</dict>
 		<key>comments</key>

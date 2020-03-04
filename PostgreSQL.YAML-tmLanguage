@@ -172,6 +172,9 @@ repository:
     - name: constant.other.pgsql
       comment: schema.function calls
       match: (?i)\b([-\w_]*\.?[-\w_]+\b\s*(?=\())
+    - name: constant.other.pgsql
+      comment: schema.table.field calls
+      match: (?i)\b([-\w_]*\.?[-\w_]+\.[-\w_]+\b)
   
   string_escape:
     name: constant.character.escape.pgsql
