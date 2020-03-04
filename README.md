@@ -3,13 +3,6 @@ Sublime Text PostgreSQL Syntax Definition
 
 ### Installation
 
-With [Package Control](http://wbond.net/sublime_packages/package_control):
-
-1. Run `Package Control: Install Package` command, find and install `PostgreSQL Syntax Highlighting` plugin.
-2. Restart Sublime Text editor (if required)
-
-Using Package Control ensures package will stay up to date automatically.
-
 Manually:
 
 1. Clone or [download](https://github.com/tkopets/sublime-postgresql-syntax/archive/master.zip)
