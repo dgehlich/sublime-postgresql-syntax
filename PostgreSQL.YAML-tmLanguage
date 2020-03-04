@@ -82,8 +82,8 @@ repository:
     - include: '#strings'
     - include: '#keywords'
     - include: '#misc'
-    - include: '#calls'
     - include: '#vars'
+    - include: '#calls'
 
   dollar_quotes:
     patterns:

@@ -394,11 +394,11 @@
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#calls</string>
+					<string>#vars</string>
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#vars</string>
+					<string>#calls</string>
 				</dict>
 			</array>
 		</dict>
