@@ -5,7 +5,7 @@ Sublime Text PostgreSQL Syntax Definition
 
 Manually:
 
-1. Clone or [download](https://github.com/tkopets/sublime-postgresql-syntax/archive/master.zip)
+1. Clone or [download](https://github.com/dgehlich/sublime-postgresql-syntax/archive/master.zip)
 git repo into your packages folder (in Sublime Text, find `Browse Packages...`
 menu item to open this folder)
 2. Restart Sublime Text editor (if required)
