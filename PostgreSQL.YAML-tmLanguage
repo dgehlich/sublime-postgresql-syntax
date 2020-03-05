@@ -35,12 +35,14 @@ repository:
 
   statement_create_function_view:
     name: meta.statement.create.pgsql
-    begin: (?i)^\s*(create)\s+(or\s+replace\s+)?(function|view)\s+([\w\.]+)(?:[\(|\s)])
+    begin: (?i)^\s*(create)\s+(or\s+replace\s+)?(function|view)\s+((?:(\w+)\.)?(\w+))(?:[\(|\s)])
     beginCaptures:
       '1': {name: keyword.other.create.pgsql}
       '2': {name: keyword.other.pgsql}
       '3': {name: keyword.other.pgsql}
       '4': {name: entity.name.function.pgsql}
+      '5': {name: entity.other.inherited-class.pgsql}
+      '6': {name: entity.name.function.pgsql}
     end: ;\s*
     patterns:
     - include: '#dollar_quotes'
