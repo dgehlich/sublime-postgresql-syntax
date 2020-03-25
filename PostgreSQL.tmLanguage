@@ -405,7 +405,7 @@
 		<key>statement_create_function_view</key>
 		<dict>
 			<key>begin</key>
-			<string>(?i)^\s*(create)\s+(or\s+replace\s+)?(function|view)\s+((?:(\w+)\.)?(\w+))(?:[\(|\s)])</string>
+			<string>(?i)^\s*(create)\s+(or\s+replace\s+)?(function|view)\s+((?:(\w+|".+")\.)?(?:\w+|".+"))(?:[\(|\s)])</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -432,11 +432,6 @@
 				<dict>
 					<key>name</key>
 					<string>entity.other.inherited-class.pgsql</string>
-				</dict>
-				<key>6</key>
-				<dict>
-					<key>name</key>
-					<string>entity.name.function.pgsql</string>
 				</dict>
 			</dict>
 			<key>end</key>
